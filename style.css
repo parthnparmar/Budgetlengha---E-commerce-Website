@@ -1,0 +1,211 @@
+*{margin:0; padding: 0; box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;}
+.carousel-inner img {
+    width: 100%;
+    height: 90vh;
+  }
+  .aboutimg{
+    width: 100%;
+    height: 250px!important;
+  }
+  .w-450{
+    width: 450px;
+  }
+
+.border {
+  margin-left: 20PX;
+  margin-right: 20PX;
+  border: 15px solid black !important;
+  padding-bottom: 20px !important;  
+  background-image: url(img/Screenshot\ 2024-09-04\ 212229.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+/* Global Styles */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+/* Contact Form Styles */
+
+section {
+  padding: 50px 0;
+ 
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+/* Style for the navbar items */
+.navbar-nav .nav-item {
+  margin-right: 15px; /* Adds spacing between items */
+}
+
+.navbar-nav .nav-item a {
+  color: #ffffff; /* Text color for the links */
+  font-family: 'Poppins', sans-serif; /* Font style */
+  padding: 10px 15px; /* Padding around the links */
+  text-transform: uppercase; /* Text in uppercase */
+  font-weight: bold; /* Bold text */
+  transition: color 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.navbar-nav .nav-item a:hover {
+  color: #ffcc00; /* Color change on hover */
+}
+
+.navbar-nav .form-select {
+  background-color: #343a40; /* Dropdown background to match navbar */
+  color: #fff; /* Text color */
+  border: none; /* Removes border */
+  padding: 5px; /* Padding inside the dropdown */
+}
+
+.navbar-nav .form-select:hover {
+  background-color: #ffcc00; /* Change dropdown background on hover */
+  color: #343a40; /* Text color change on hover */
+}
+/* Footer styling */
+.fancy-footer {
+  background-color: #343a40; /* Dark background */
+  color: #f8f9fa; /* Light text color */
+  padding: 40px 0; /* Padding for space */
+  font-family: 'Josefin Sans', sans-serif; /* Fancy font */
+  box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1); /* Shadow for 3D effect */
+  border-top: 5px solid #ffcc00; /* Fancy top border */
+}
+
+.fancy-footer p {
+  font-size: 1.1em; /* Slightly larger text */
+  line-height: 1.6; /* Spacing between lines */
+  margin: 5px 0; /* Space around paragraphs */
+}
+
+.fancy-footer strong {
+  font-size: 1.4em; /* Bigger font for brand name */
+  color: #ffcc00; /* Highlight brand name in yellow */
+}
+
+.fancy-footer p:last-of-type {
+  margin-top: 10px; /* Space between text and address */
+}
+
+.fancy-footer p a {
+  color: #ffcc00; /* Links are yellow */
+  text-decoration: none; /* Remove underline */
+}
+
+.fancy-footer p a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.form-control {
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-control:focus {
+  border-color: #aaa;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+textarea.form-control {
+  height: 100px;
+  resize: vertical;
+}
+
+button[type="submit"] {
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+  section {
+    padding: 30px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  section {
+    padding: 20px 0;
+  }
+  .form-control {
+    height: 30px;
+  }
+  textarea.form-control {
+    height: 80px;
+  }
+}
+h5 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-family: "Sofia", sans-serif;
+   
+}
+.jumbotron{
+  background-image: url(img/—Pngtree—beautiful\ woman\ with\ an\ orange_3151312.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+h6{
+  
+  font-size: 100px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  background-image: url(img/q.jpeg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.navbar{
+  
+  background: rgba(0,0,0,0.6);
+  background-image:url(img/—Pngtree—beautiful\ woman\ with\ an\ orange_3151312.jpg);
+}
+.p-3{
+  background-image: url(img/download\ \(3\).jpeg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
